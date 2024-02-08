@@ -22,7 +22,7 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets/fonts/graphik"
             ],
             "styles": [
               "node_modules/bootstrap/scss/bootstrap.scss",
