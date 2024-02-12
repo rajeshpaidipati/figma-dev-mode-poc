@@ -1,0 +1,315 @@
+.bg-container {
+    max-width: 1043px;
+    width: 100%;
+    margin: 40px;
+    padding: 40px 83px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border: 1px solid #F2F2F2;
+    background: #FAFAFA;
+}
+
+h1 {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    /* 110% */
+    padding-bottom: 24px;
+    color: #000000;
+}
+
+
+h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 24px;
+    line-height: 48px;
+    /* 110% */
+}
+
+h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 24px;
+    line-height: 32px;
+    /* 110% */
+}
+
+h4 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 24px;
+    line-height: 28px;
+    /* 110% */
+}
+
+hr {
+    height: 1px;
+    align-self: stretch;
+    background-color: #CCCBCE;
+    margin-top: 0;
+}
+
+p.text-lg {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+    margin-bottom: 24px;
+}
+
+p.text-md {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 24px;
+    line-height: 24px;
+    /* 155.556% */
+}
+
+p.text-sm {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 24px;
+    margin-bottom: 24px;
+    line-height: 20px;
+    /* 155.556% */
+}
+
+a {
+    color: #0041F0;
+}
+
+.buttons .btn-primary {
+    color: white;
+    background-color: #A100FF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    word-wrap: break-word;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.buttons .btn-secondary {
+    color: #A100FF;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    word-wrap: break-word;
+    border-radius: 999px;
+    overflow: hidden;
+    border: 1px solid #CCCBCE;
+}
+
+.buttons .btn-ghost {
+    color: #A100FF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    word-wrap: break-word;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.form-container .form-label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.form-container .form-control {
+    color: #423D47;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border: 1px #423D47 solid;
+    padding: 8px 12px;
+}
+
+/* The container */
+.checkbox-container .container {
+    display: inline;
+    position: relative;
+    padding-left: 35px;
+    padding-top: 2px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    color: #100D1B;
+    font-size: 16px;
+    font-family: Graphik;
+    font-weight: 400;
+    line-height: 24px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .checkbox-container  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkbox-container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    border-radius: 3px;
+    border: 2px solid #423D47;
+    background-color: #ffffff;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .checkbox-container .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .checkbox-container .container input:checked ~ .checkmark {
+    background-color: #A100FF;
+    border: 2px solid #A100FF;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .checkbox-container .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .checkbox-container .container .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  /* The container */
+.radio-container .container {
+    display: inline;
+    position: relative;
+    padding-left: 35px;
+    padding-top: 2px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    color: #100D1B;
+    font-size: 16px;
+    font-family: Graphik;
+    font-weight: 400;
+    line-height: 24px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+.radio-container .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+ .radio-container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border: 2px solid #423D47;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+.radio-container .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+.radio-container .container input:checked ~ .checkmark {
+    background-color: #A100FF;
+    border: 2px solid #A100FF;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+ .radio-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+.radio-container  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+ .radio-container .container .checkmark:after {
+      top: .5px;
+      left: .5px;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: 3px solid #ffffff;
+      background: #A100FF;
+  }
+
+
+footer {
+    padding: 16px 40px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+footer>div {
+    align-items: flex-start;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    gap: 20px;
+}
+
+
+footer a {
+    color: #423D47;
+}
+
+footer .footer-text {
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.333% */
+}
