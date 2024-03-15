@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../fas"
+		},
+		{
+			"path": "../../kaleidoscope-UI"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"figma.autocompleteBlocks": true
+	}
+}
